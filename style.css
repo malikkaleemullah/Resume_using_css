@@ -1,0 +1,108 @@
+body {
+    color: black;
+    background-image: url(./images\ \(2\).jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.25),
+     rgba(0, 0, 0, 0.25)),url(./images\ \(2\).jfif);
+    background-blend-mode: overlay; /* Blend the color with the image */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 3rem;
+}
+
+table, tr, th{
+    border: 1px solid rgb(104, 68, 68);
+    padding: 0.2rem;
+    
+}
+table {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5%;
+}
+th a {
+    text-decoration: none;
+    color: #007BFF; /* Link color */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a color transition effect */
+}
+
+/* Change link color on hover */
+th a:hover {
+    color: #FF5733; /* Change link color on hover */
+}
+
+
+/* Change link color on hover */
+th a:hover {
+    text-decoration: none; /* Add underline on hover */
+    color: #FF5733; /* Change link color on hover */
+}
+
+
+
+
+h2 {
+    text-decoration: underline;
+    text-align: left;
+}
+h1 {
+    
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Style the image container */
+.image-container {
+    text-align: center;
+}
+img {
+    border-radius: 20%;
+    background-color: whitesmoke;
+}
+
+/* Style the entire list */
+ul {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
+/* Style links within list items */
+li a {
+    text-decoration: none;
+    color: #007BFF; /* Link color */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a color transition effect */
+}
+
+/* Change link color on hover */
+li a:hover {
+    color: #FF5733; /* Change link color on hover */
+}
+p a {
+    text-decoration: none;
+    color: #007BFF; /* Link color */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a color transition effect */
+}
+
+/* Change link color on hover */
+p a:hover {
+    color: #FF5733; /* Change link color on hover */
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 3ms ease;
+}
+a:hover {
+    color: #FF5733; /* Change link color on hover */
+}
+
+
+
