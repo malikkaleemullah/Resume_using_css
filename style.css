@@ -1,7 +1,22 @@
-@media screen and (max-width: 600px) {
+/* Your existing CSS code */
+
+/* Add a media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media screen and (max-width: 768px) {
     body {
-        background-color: lightblue;
+        padding: 0.5rem; /* Adjust padding for smaller screens */
     }
+    
+    h1 {
+        font-size: 24px; /* Decrease font size for the heading */
+    }
+    
+    .image-container img {
+        width: 100%; /* Make the image responsive by setting its width to 100% */
+        max-width: 200px; /* Limit the maximum width of the image */
+        height: auto; /* Automatically adjust the image height */
+    }
+
+    /* Adjust other styles as needed for mobile devices */
 }
 
 body {
